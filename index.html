@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Project</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <button id="toggle">
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 256 256"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill="#000000"
+          d="M235.54 150.21a104.84 104.84 0 0 1-37 52.91A104 104 0 0 1 32 120a103.09 103.09 0 0 1 20.88-62.52a104.84 104.84 0 0 1 52.91-37a8 8 0 0 1 10 10a88.08 88.08 0 0 0 109.8 109.8a8 8 0 0 1 10 10Z"
+        />
+      </svg>
+    </button>
+    <div class="container">
+      <div id="info-card">
+        <h1>User Information Card</h1>
+        <div id="user-info">
+          <div class="field">
+            <span class="label">First Name:</span>
+            <span id="first-name" class="input"></span>
+          </div>
+          <div class="field">
+            <span class="label">Last Name:</span>
+            <span id="last-name" class="input"></span>
+          </div>
+          <div class="field">
+            <span class="label">Country:</span>
+            <span id="country" class="input"></span>
+          </div>
+          <div class="field">
+            <span class="label">Phone No.:</span>
+            <span id="phone-number" class="input"></span>
+          </div>
+          <div class="field">
+            <span class="label">State:</span>
+            <span id="state" class="input"></span>
+          </div>
+          <div class="field">
+            <span class="label">City:</span>
+            <span id="city" class="input"></span>
+          </div>
+          <div class="field">
+            <span class="label">Village:</span>
+            <span id="village" class="input"></span>
+          </div>
+        </div>
+        <button onclick="resetAll()">Reset</button>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/08f45ad4dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
